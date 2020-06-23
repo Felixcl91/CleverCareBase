@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/info"
+        android:title="Información"
+        android:icon="@drawable/ic_info"/>
+
+    <item android:id="@+id/emergencias"
+        android:title="Emergencias"
+        android:icon="@drawable/ic_urgencia"
+        />
+
+    <item android:id="@+id/familia"
+        android:title="Familia"
+        android:icon="@drawable/ic_people"/>
+
+    <item android:id="@+id/incidencias"
+        android:title="Incidencias"
+        android:icon="@drawable/ic_warning"/>
+
+    <item android:id="@+id/perfil"
+        android:title="Perfil"
+        android:icon="@drawable/ic_perfil"
+        />
+
+
+
+
+
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/nieta"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                />
+
+            <TextView
+                android:id="@+id/_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:layout_toEndOf="@id/_image"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/care_black"/>
+
+            <TextView
+                android:id="@+id/_rol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Administrador"
+                android:layout_toEndOf="@id/_image"
+                android:layout_below="@id/_name"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/appogeo_light"/>
+
+            <TextView
+                android:id="@+id/_relation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nieta"
+                android:layout_toEndOf="@id/_image"
+                android:layout_below="@id/_rol"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/appogeo_light"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

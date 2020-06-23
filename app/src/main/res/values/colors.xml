@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="black_effective">#2a2a2a</color>
+
+    <color name="care_basic">#626a97</color>
+    <color name="care_cian">#24b9ff</color>
+    <color name="ic_care">#888888</color>
+    <color name="care_gray">#dee2eb</color>
+    <color name="care_black">#0f1d3d</color>
+    <color name="care_white">#FFFFFF</color>
+    <color name="care_purple">#5E2DEA</color>
+    <color name="care_purple_opacity">#e8e5f9</color>
+    <color name="border">#AFB0CD</color>
+
+    <color name="color_error">#fd27eb</color>
+    <color name="color_text">#495057</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="care_leve_back">#FFAC00</color>
+    <color name="care_leve_text">#FFFFFF</color>
+    <color name="care_grave_back">#FF0000</color>
+    <color name="care_btn_back">#FBEAFD</color>
+    <color name="care_btn_text">#FD30EC</color>
+    <color name="care_grave_text">#FFFFFF</color>FD30EC
+    <color name="care_not_valid_delivery">#666666</color>
+    <color name="care_valid_delivery">#552ff0</color>
+    <color name="care_conformed_delivery">#22b039</color>
+    <color name="care_cian_white">#edf9fe</color>
+    <color name="care_in_proccess_invoice">#00bbff</color>
+    <color name="blue_dark">#0f1d3d</color>
+    <color name="care_call_text">#18C1FF</color>
+    <color name="care_call_back">#DEF8FF</color>
+    <color name="care_message_text">#30BB7D</color>
+    <color name="care_message_back">#B7F9D9</color>
+    <color name="care_voice_note_text">#FF2FF1</color>
+    <color name="care_voice_note_back">#FFEDFF</color>
+    <color name="care_mail_text">#FFBC0B</color>
+    <color name="care_mail_back">#FFEAB6</color>
+    <color name="background_preview_images">#B2B2B2</color>
+    <color name="red_error">#B80E0E</color>
+    <color name="menu">#A0D7FA</color>
+
+    <color name="appogeo">#0b01ff</color>
+
+    <color name="gray_blank">#F8F6F6</color>
+
+    <color name="title">#E5E2E2</color>
+
+    <color name="appogeo_light">#BBB9F8</color>
+    <color name="appogeo_light2">#BDBDBF</color>
+</resources>

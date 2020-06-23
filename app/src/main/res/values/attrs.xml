@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ComponentSpinner">
+        <attr name="input_title_spinner" format="string" />
+        <attr name="spinner_off" format="string" />
+        <attr name="android:entries" />
+    </declare-styleable>
+
+    <declare-styleable name="InputDate">
+        <attr name="date_title" format="string" suggestion="true" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ComponentInput">
+        <attr name="input_title" format="string" />
+        <attr name="input_error" format="string" />
+        <attr name="input_hint" format="string" />
+        <attr name="input_text" format="string" />
+        <attr name="image_camera" format="string" />
+        <attr name="input_text_off" format="string" />
+        <attr name="date_block" format="string" />
+        <attr name="android:inputType" />
+        <attr name="all_caps" format="string"/>
+        <attr name="input_see" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ComponentsObservations">
+        <attr name="inpunt_title_obs" format="string" />
+        <attr name="input_hint_obs" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ComponentText">
+        <attr name="text_title" format="string" />
+        <attr name="text_body" format="string" />
+
+    </declare-styleable>
+    <declare-styleable name="ComponentDashboard">
+        <attr name="lb_item1" format="string" />
+        <attr name="bd_item1" format="string" />
+        <attr name="lb_item2" format="string" />
+        <attr name="bd_item2" format="string" />
+        <attr name="lb_item3" format="string" />
+        <attr name="bd_item3" format="string" />
+        <attr name="lb_item4" format="string" />
+        <attr name="bd_item4" format="string" />
+        <attr name="lb_kpi" format="string" />
+        <attr name="bd_kpi" format="string" />
+        <attr name="cd_icon" format="reference" />
+        <attr name="progress" format="integer" />
+        <attr name="colorProgress" format="color" />
+        <attr name="android:visibility" />
+
+    </declare-styleable>
+
+    <declare-styleable name="EmptyLayout">
+        <attr name="emptyText" format="string" suggestion="true" />
+        <attr name="emptyImage" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CleverCare</string>
+    <string name="iv_splash">imagen splash</string>
+    <string name="lb_welcome">Bienvenido</string>
+    <string name="close">close</string>
+    <string name="tv_user">User</string>
+    <string name="email">usuario@dominio.com</string>
+    <string name="pass_user">contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="lb_recover_pass">Recuperar contraseña</string>
+    <string name="login">Iniciar sessión</string>
+    <string name="showPassword">Iniciar sessión</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="urgencias">Urgencias</string>
+    <string name="incidencias">Incidencias</string>
+    <string name="info">Información</string>
+    <string name="btn_eye">eye</string>
+    <string name="btn_clear">clear</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dinamic">Texto dinamico</string>
+</resources>

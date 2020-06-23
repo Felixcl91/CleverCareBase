@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/care_basic"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/ly_input"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_title"
+        android:background="@drawable/text_input_box_stroke"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/et_component"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:inputType="text"
+            android:lines="1"
+            android:textColor="@color/color_text"
+            android:textSize="15sp"
+            android:autofillHints="" />
+
+
+        <ImageView
+            android:id="@+id/image_clear"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="-15dp"
+            android:contentDescription="@string/close"
+            android:padding="10dp"
+            android:src="@drawable/clear_error" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:id="@+id/image_eye"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/btn_eye"
+                android:padding="9dp"
+                android:src="@drawable/ic_eye"
+                android:tint="@color/care_basic" />
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tx_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_input"
+        android:textColor="@color/color_error"
+        android:visibility="gone" />
+
+
+
+
+</RelativeLayout>
